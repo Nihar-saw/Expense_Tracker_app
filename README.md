@@ -1,21 +1,194 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💰 SpendWise - Expense Tracker App
 
-# Run and deploy your AI Studio app
+SpendWise is a modern Android expense tracking application that helps users manage their daily, monthly, and yearly expenses with beautiful analytics and an intuitive user experience.
 
-This contains everything you need to run your app locally.
+Track your spending habits, manage budgets, analyze trends, and gain better financial control — all in one place.
 
-View your app in AI Studio: https://ai.studio/apps/5e4b6045-13f3-4929-9622-7f5fb9eef7b1
+---
 
-## Run Locally
+# ✨ Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## 📊 Expense Management
+- Add, edit, and delete expenses
+- Categorize transactions
+- Track spending history
+- Monthly & yearly expense overview
 
+## 📈 Analytics Dashboard
+- Interactive charts and graphs
+- Spending trends visualization
+- Category-wise expense breakdown
+- Budget tracking system
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## 🎯 Budget Planning
+- Set monthly spending limits
+- Monitor savings goals
+- Get alerts for overspending
+
+## 🌙 Modern UI
+- Clean fintech-inspired interface
+- Dark & light mode support
+- Smooth animations
+- Responsive layouts
+
+## ☁️ Cloud Features
+- Secure authentication
+- Cloud backup & sync
+- Multi-device support
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Kotlin | Android Development |
+| Jetpack Compose | Modern UI |
+| MVVM Architecture | Clean Architecture |
+| Firebase | Authentication & Database |
+| Room Database | Local Storage |
+| Retrofit | API Handling |
+| Hilt | Dependency Injection |
+| Coroutines & Flow | Async Programming |
+
+---
+
+# 📱 Screens
+
+- Splash Screen
+- Login/Register
+- Dashboard
+- Add Expense Screen
+- Analytics Screen
+- Budget Planner
+- Transaction History
+- Profile & Settings
+
+---
+
+# 📂 Project Structure
+
+```bash
+app/
+├── data/
+├── domain/
+├── ui/
+├── viewmodel/
+├── navigation/
+├── utils/
+└── di/
+```
+
+---
+
+# 🚀 Getting Started
+
+## Prerequisites
+
+- Android Studio
+- Kotlin SDK
+- Firebase Project Setup
+- Android Emulator or Physical Device
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/spendwise.git
+```
+
+## 2️⃣ Open Project
+
+Open the project in Android Studio.
+
+---
+
+## 3️⃣ Sync Gradle
+
+Allow Gradle to download all required dependencies.
+
+---
+
+## 4️⃣ Firebase Setup
+
+1. Create a Firebase project
+2. Add Android app
+3. Download `google-services.json`
+4. Place it inside:
+
+```bash
+app/google-services.json
+```
+
+---
+
+## 5️⃣ Run the App
+
+Connect an emulator or Android device and run:
+
+```bash
+Shift + F10
+```
+
+---
+
+# 📊 Future Improvements
+
+- AI spending insights
+- Voice expense input
+- OCR receipt scanner
+- Export reports as PDF/CSV
+- Financial health score
+- Smart notifications
+
+---
+
+# 📸 Screenshots
+
+Add screenshots of your app here.
+
+```markdown
+![Dashboard](screenshots/dashboard.png)
+![Analytics](screenshots/analytics.png)
+```
+
+---
+
+# 🔒 Security
+
+- Secure Firebase Authentication
+- Local encrypted storage
+- Protected API keys
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the project
+2. Create your feature branch
+3. Commit changes
+4. Push to branch
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developer
+
+Developed by Nihar Sawant
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub.
