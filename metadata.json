@@ -1,0 +1,6 @@
+{
+  "name": "SpendWise",
+  "description": "SpendWise is a premium fintech application to track expenses, manage budgets, scan receipts, and get AI-powered financial insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
